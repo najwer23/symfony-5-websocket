@@ -1,5 +1,14 @@
 # symfony-5-websockets 26.01.2020
 
+## Prerequisites
+
+- Composer
+- PHP 7.2.5 or higher
+- Symfony 5.1
+- Ratchet
+
+## Installing & Setting up the Symfony Framework
+
 ```bash
 composer create-project symfony/skeleton app
 ```
@@ -59,7 +68,7 @@ composer require symfony/asset
 php bin/console run:symfony-5-websocket-server
 ```
 
-### Client (in browser: Chrome, MZ, Edge)
+### Client (in browser: Chrome, MZ, Edge, IE)
 
 ```bash
 symfony-5-websocket/
