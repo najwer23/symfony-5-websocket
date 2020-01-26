@@ -1,0 +1,42 @@
+.form-input {
+    margin-bottom: 10px;
+    display: flex;
+    width: 302px;
+    justify-content: space-between;
+}
+
+input[type="text"], textarea {
+    border: solid orange 1px;
+    resize: vertical;
+    width: 150px;
+    padding: 8px;
+}
+
+textarea {
+    min-height: 50px;
+}
+
+label {
+    width: 100px;
+}
+
+.chat-box {
+    height: 400px;
+    width: 300px;
+    border: solid orange 1px;
+    background: #fcfcfc;
+    overflow: auto;
+    margin-bottom: 20px;
+}
+
+button {
+    margin-left: 244px;
+    display: inline-block;
+    padding: 6px 12px;
+}
+
+.message {
+    padding: 10px 5px;
+    margin-bottom: 10px;
+    border-bottom: solid lightgrey 1px;
+}

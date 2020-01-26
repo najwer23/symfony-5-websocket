@@ -1,0 +1,30 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Chat Client!{% endblock %}
+
+{% block stylesheets %}
+    <link href="{{ asset('CSS/index.css') }}" rel="stylesheet"/>
+{% endblock %}
+
+{% block javascripts %}
+    <script src="{{ asset('JS/index.js') }}"></script>
+{% endblock %}
+
+
+{% block body %}
+
+    <div id="chat" class="chat-box"></div>
+
+    <div id="chat-controls">
+        <div class="form-input">
+            <label> Name </label>
+            <input type="text" id="name">
+        </div>
+        <div class="form-input">
+            <label> Message: </label>
+            <textarea type="text" id="message"></textarea>
+        </div>
+        <button type="button" id="sendBtn">Send</button>
+    </div>
+
+{% endblock %}
