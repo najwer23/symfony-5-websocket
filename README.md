@@ -10,7 +10,7 @@
 ## Installing & Setting up the Symfony Framework
 
 ```bash
-composer create-project symfony/skeleton app
+composer create-project symfony/skeleton symfony-5-websocket
 ```
 
 ## Ratchet Master Branch
