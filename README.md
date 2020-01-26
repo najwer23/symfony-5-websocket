@@ -1,4 +1,4 @@
-# symfony-5-websockets 26.01.2020
+# symfony-5-websockets (tested 26.01.2020)
 
 ## Prerequisites
 
